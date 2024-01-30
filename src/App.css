@@ -1,0 +1,58 @@
+/* src/App.css */
+.sidebar {
+  width: 240px;
+  background-color: #282c35; /* Couleur de fond du thème nocturne */
+  color: #ffffff; /* Couleur du texte dans le thème nocturne */
+  padding: 16px;
+}
+
+.note-container {
+  display: flex;
+}
+
+.note {
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid #464c57; /* Couleur de bordure pour le thème nocturne */
+  margin-bottom: 10px;
+  background-color: #333; /* Couleur de fond pour le thème nocturne */
+  transition: background-color 0.3s;
+}
+
+.note:hover {
+  background-color: #444; /* Couleur de fond au survol pour le thème nocturne */
+}
+
+.current-note {
+  width: 65%;
+  margin-left: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  background-color: #444; /* Couleur de fond pour le thème nocturne */
+  color: #ffffff; /* Couleur du texte dans le thème nocturne */
+  border: 1px solid #464c57; /* Couleur de bordure pour le thème nocturne */
+}
+
+h1 {
+  color: #008ff6; /* Couleur du texte pour le thème nocturne */
+}
+
+button {
+  background-color: #2c3338; /* Couleur de fond pour le thème nocturne */
+  color: #ffffff; /* Couleur du texte dans le thème nocturne */
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1f2428; /* Couleur de fond au survol pour le thème nocturne */
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c35; /* Couleur de fond du thème nocturne */
+  color: #ffffff; /* Couleur du texte dans le thème nocturne */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #3a3f4b; /* Couleur de fond pour le code dans le thème nocturne */
+  color: #dcdcdc; /* Couleur du texte pour le code dans le thème nocturne */
+}
